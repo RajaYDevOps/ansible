@@ -1,0 +1,27 @@
+- name: "raja reddy y"
+  dob: "05-08-1990"
+  mobile: "1234567890"
+  addresses:
+  - type: perm
+    street: 101
+    apartmentName: "Harivilly Apartments"
+    city: "BNGLR"
+
+  - type: current
+    street: 101
+    apartmentName: "Harivilly Apartments"
+    city: "BNGLR"
+
+- name: "raja reddy y"
+  dob: "05-08-1990"
+  mobile: "1234567890"
+  addresses:
+  - type: perm
+    street: 101
+    apartmentName: "Harivilly Apartments"
+    city: "BNGLR"
+
+  - type: current
+    street: 101
+    apartmentName: "Harivilly Apartments"
+    city: "BNGLR"
