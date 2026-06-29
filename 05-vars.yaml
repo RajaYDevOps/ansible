@@ -5,11 +5,11 @@
     COURSE: "Ansible"
     TRAINER: "Siva"
     DURATION: "150 hours"
-  tasks: 
+  tasks:
   - name: print information
     vars:
       COURSE: "DevSecOps with AIOps"
-  - debug: 
+    debug: 
       msg: "Hi, i am learning {{COURSE}},Trainer is {{TRAINER}},duration is {{DURATION}}"
 
 # - name: demo on task level variables
