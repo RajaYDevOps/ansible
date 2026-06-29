@@ -2,8 +2,8 @@
   hosts: local
   connection: local
   vars_files:
-    -course.yaml
+  - course.yaml
   tasks:
-- name: print variables information
-  debug:
-    msg: "Hi, I am learning {{ COURSE }}, Trainer is {{ TRAINER }}, Duration is {{ DURATION }}"
+  - name: print variables information
+    debug:
+      msg: "Hi, I am learning {{ COURSE }}, Trainer is {{ TRAINER }}, Duration is {{ DURATION }}"
