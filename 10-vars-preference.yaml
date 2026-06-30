@@ -3,7 +3,7 @@
   vars:
    full_name: "Siva from play"
   vars_files:
-   course.yaml
+   #course.yaml
   vars_prompt:
   - name: full_name
     prompt: "Please enter your fullname"
@@ -19,3 +19,4 @@
       #var preference
       #1. command level
       #2. task level
+      #3. vars_files
