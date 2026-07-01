@@ -10,7 +10,7 @@
       - shell
       - ansible
     more_details:
-      months: 5
+      months: "5"
       trainer: "Siva Kumar Reddy"
   tasks: 
     - name: print information
