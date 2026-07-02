@@ -1,0 +1,13 @@
+- name: install packages
+  hosts: frontend
+  become: yes #searched in google,it is to run with sudo access
+  tasks:
+  - name: install packages
+    package:
+      name: " {{ item }} "
+      state: present
+    loop:
+      - nginx
+      - mongodb-mongosh
+      - git
+      - mysql
